@@ -274,6 +274,7 @@ for idx, doc in enumerate(unique_documents):
         except Exception as e:
             logging.error(f"Error processing document {idx}: {e}")
 
+#tiny change
 # Wait for all threads to finish
 for thread in threads:
     thread.join()
